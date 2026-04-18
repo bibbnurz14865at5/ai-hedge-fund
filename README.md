@@ -41,3 +41,9 @@ This project is for **educational and research purposes only**.
 - Creator assumes no liability for financial losses
 - Consult a financial advisor for investment decisions
 - Past performance does not indicate future results
+
+## My Notes & Observations
+
+- The Graham agent tends to find very few buys in the current market — margin-of-safety threshold feels strict (which is the point).
+- Taleb agent almost always flags high tail risk on high-beta tech names; useful sanity check against the more bullish agents.
+- TODO: run a backtest comparing portfolio output from Buffett+Munger consensus vs. a simple equal-weight of all agent signals.
