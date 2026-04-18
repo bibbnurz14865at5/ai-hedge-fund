@@ -28,7 +28,7 @@ This system employs several agents working together:
 
 Note: the system does not actually make any trades.
 
-> **Personal note:** I'm using this project to study how different investing philosophies translate into algorithmic rules. Particularly interested in comparing the Munger/Buffett agents against the Taleb agent on the same set of stocks.
+> **Personal note:** I'm using this project to study how different investing philosophies translate into algorithmic rules. Particularly interested in comparing the Munger/Buffett agents against the Taleb agent on the same set of stocks. My current test watchlist: AAPL, MSFT, BRK.B, NVDA, and a few small-caps to stress-test the Graham agent's margin-of-safety logic.
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/virattt?style=social)](https://twitter.com/virattt)
 
@@ -45,10 +45,4 @@ This project is for **educational and research purposes only**.
 By using this software, you agree to use it solely for learning purposes.
 
 ## Table of Contents
-- [How to Install](#how-to-install)
-- [How to Run](#how-to-run)
-  - [⌨️ Command Line Interface](#️-command-line-interface)
-  - [🖥️ Web Application](#️-web-application)
-- [How to Contribute](#how-to-contribute)
-- [Feature Requests](#feature-requests)
-- [License](#licens
+- [How to Install](#how-to-ins
