@@ -104,20 +104,8 @@ OPENAI_API_KEY=your-openai-api-key
 # For running LLMs hosted by groq (deepseek, llama3, etc.)
 GROQ_API_KEY=your-groq-api-key
 
-# For getting financial data
+# For getting financial data (required for stock prices, financials, etc.)
 FINANCIAL_DATASETS_API_KEY=your-financial-datasets-api-key
 ```
 
-> **Note (personal):** I've found that setting up `FINANCIAL_DATASETS_API_KEY` is essential — without it, most agents fall back to limited data and results can be unreliable.
-
-### Running the Application
-
-Start the backend:
-```bash
-cd app/backend && poetry run uvicorn main:app --reload
-```
-
-Start the frontend (in a separate terminal):
-```bash
-cd app/frontend && npm install && npm run dev
-```
+> **Note (personal):** I've found that setting up the `.env` file correctly is the most common stumbling block — double-check there are no trailing spaces around the `=` signs.
